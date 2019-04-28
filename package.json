@@ -1,7 +1,12 @@
 {
+  "scripts": {
+    "proto": "pbjs -t json person.proto > person.json"
+  },
   "dependencies": {
     "dgram": "^1.0.1",
-    "google-protobuf": "^3.7.1",
-    "protobufjs": "^5.0.1"
+    "google-protobuf": "^3.7.1"
+  },
+  "devDependencies": {
+    "protobufjs": "^6.8.6"
   }
 }

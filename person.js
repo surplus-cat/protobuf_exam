@@ -2,8 +2,6 @@ let person = require('./person.json');
 
 let protobufRoot = require('protobufjs').Root;
 
-console.log(protobufRoot)
-
 let root = protobufRoot.fromJSON(person);
 
 let loveGame = root.lookupType('user.LoveGame');

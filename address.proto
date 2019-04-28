@@ -1,8 +1,0 @@
-syntax = "proto2";
-
-message Address {
-	
-	required string province = 1;
-	required string city = 2;
-	required string country = 3;
-}
