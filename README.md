@@ -95,8 +95,3 @@ toObject() // 打印数据
       console.log(address1.toObject());
     </script>
 </html>
-
-demo3:
-
-直接运行 index.js 
-注意 该demo protobufjs 版本要是^6.8.6
